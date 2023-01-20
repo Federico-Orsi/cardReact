@@ -1,0 +1,460 @@
+
+.App {
+  text-align: center;
+}
+
+
+.roboto{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
+.robotoStrong{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 500;
+}
+
+/* Acá empiezan los estilos copiados de la Card Anterior!! */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: 0;
+}
+
+body {
+  width: 100vw;
+}
+
+header {
+  position: relative;
+}
+
+#containerTituloNombres {
+  position: relative;
+  width: 100%;
+  height: 106px;
+  background-color: black;
+}
+
+.tituloNombres {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  font-family: "Comforter Brush", sans-serif;
+  margin-bottom: 0;
+  padding-top: 12%;
+  position: absolute;
+  font-size: xx-large;
+  top: -32px;
+  left: 172px;
+}
+
+.div1 {
+  height: 250px;
+  background-color: #ece7e3;
+  width: 100vw;
+}
+
+#div2 {
+  height: 400px;
+  background-color: #fff;
+  text-align: center;
+  width: 100vw;
+}
+
+#fotoPlaya {
+  position: absolute;
+  left: 56px;
+  top: 64px;
+  max-height: 75%;
+  width: 71%;
+}
+
+#pFecha {
+  text-decoration: none;
+  position: absolute;
+  bottom: 37px;
+  left: -6px;
+  font-size: xxx-large;
+  background-color: #fff;
+  color: black;
+  font-family: "Comforter Brush", sans-serif;
+  width: 100%;
+  padding-top: 10%;
+}
+
+#Capa_1 {
+  overflow: none;
+  position: absolute;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 113px;
+  bottom: 25px;
+  right: 3px;
+}
+
+#divCountDown {
+  background-color: black;
+  height: 265px;
+  width: 100vw;
+  color: #fff;
+  padding-top: 23%;
+  text-align: center;
+}
+
+#countdownContainer {
+  font-size: xx-large;
+  margin-bottom: 0;
+}
+
+#divTiempoRestanteEnNumeros {
+  font-size: xx-large;
+}
+
+.estilosCountdown {
+  margin-bottom: 0;
+}
+
+#divDiasHoras {
+  margin-left: -2%;
+  font-weight: 100;
+}
+
+#pSegundos {
+  margin-left: 35%;
+}
+
+#pDias {
+  margin-left: -28%;
+}
+
+#divFiestaWhite {
+  height: 185px;
+  width: 100%;
+  background-color: #fff;
+}
+
+#divFiestaGray {
+  height: 400px;
+  width: 100%;
+  background-color: #ece7e3;
+}
+
+#seccionFiesta {
+  position: relative;
+}
+
+#yatchClubPic {
+  position: absolute;
+  top: 7%;
+  left: 22%;
+  width: 60%;
+}
+
+#pFiesta {
+  font-family: "Comforter Brush", sans-serif;
+  font-size: xxx-large;
+  padding-top: 40%;
+}
+
+#pOrganizador {
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+}
+
+#pHorario {
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+}
+
+.info {
+  background-color: black;
+  color: #fff;
+  border-radius: 26px;
+  text-decoration: none;
+  padding: 2% 5%;
+}
+.info:hover {
+  color: rgb(241, 241, 133);
+}
+
+#divMuralFotos {
+  height: 302px;
+  width: 100%;
+  background-color: #fff;
+  flex-direction: column;
+}
+
+.aMuralFotos {
+  background-color: black;
+  color: #fff;
+  border-radius: 26px;
+  text-decoration: none;
+  padding: 2% 5%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  justify-self: center;
+  align-self: center;
+}
+.aMuralFotos:hover {
+  color: rgb(241, 241, 133);
+}
+
+#pCamiYFede {
+  background-color: #ece7e3;
+  margin-left: 13%;
+  margin-right: 17%;
+  padding: 1%;
+  font-weight: 200;
+  letter-spacing: 3px;
+}
+
+#divMesaDeRegalos {
+  background-color: black;
+  height: 517px;
+  padding: 14%;
+}
+
+#articleFlor {
+  position: relative;
+}
+
+#imgFlor {
+  position: absolute;
+  height: 23%;
+  width: 29%;
+  left: 71%;
+  top: 28%;
+}
+
+#h5MesaRegalos {
+  font-family: "Comforter Brush", sans-serif;
+  font-size: 69px;
+  padding-top: 10%;
+  margin-bottom: 1rem;
+}
+
+#divDatosBancarios {
+  margin-left: 4%;
+}
+#divDatosBancarios:hover {
+  cursor: pointer;
+}
+
+#spanDatosBancarios {
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-bottom: 2%;
+}
+
+#spanDesplegable {
+  padding-left: 35%;
+  padding-right: 7%;
+  padding-top: 1%;
+}
+
+#cbu {
+  background-color: black;
+}
+
+#divVestimenta {
+  height: 300px;
+  width: 100%;
+  background-color: #fff;
+  flex-direction: column;
+}
+
+#ejemploVestimenta {
+  background-color: black;
+  color: #fff;
+  border-radius: 26px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  align-self: center;
+  padding: 2% 5%;
+}
+#ejemploVestimenta:hover {
+  color: rgb(241, 241, 133);
+  cursor: pointer;
+}
+
+#pEleganteSport {
+  background-color: #ece7e3;
+  margin-left: 13%;
+  margin-right: 17%;
+  padding: 1%;
+}
+
+#exampleModalLabel {
+  position: absolute;
+  left: 32%;
+}
+
+.modal-header {
+  position: relative;
+}
+
+.btn-close {
+  margin-left: 94%;
+}
+
+.fs-Smaller-FO {
+  font-size: smaller;
+}
+
+.after {
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.after:hover {
+  cursor: pointer;
+}
+.after:hover:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  bottom: 0;
+  left: 0;
+}
+
+.borderBottom-FO:hover {
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+
+#imgHombre1 {
+  width: 44%;
+  margin-bottom: 3%;
+  align-self: center;
+}
+
+#imgHombre2 {
+  width: 97%;
+  align-self: center;
+}
+
+#divFotosHombres {
+  flex-direction: column;
+}
+
+#divFotosMujeres {
+  flex-direction: column;
+}
+
+#imgMujer1 {
+  width: 44%;
+  margin-bottom: 3%;
+  align-self: center;
+  margin-left: 9%;
+}
+
+#imgMujer2 {
+  width: 97%;
+  align-self: center;
+}
+
+#divConfirmacion {
+  background-color: #ece7e3;
+  height: 830px;
+  padding: 14%;
+  color: black;
+}
+
+#h5Confirmacion {
+  font-family: "Comforter Brush", sans-serif;
+  font-size: 69px;
+  margin-bottom: 2.5rem;
+}
+
+#imgFlorConfirmacion {
+  position: absolute;
+  height: 30%;
+  width: 48%;
+  bottom: -85px;
+  left: -34px;
+}
+
+.posRelative-FO {
+  position: relative;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+          appearance: none;
+  margin: 0;
+}
+
+#botonSubmit {
+  background-color: black;
+  color: #fff;
+  border-radius: 26px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 2% 5%;
+}
+#botonSubmit:hover {
+  color: rgb(241, 241, 133);
+}
+
+#divTeEsperamos {
+  background-color: black;
+  height: 300px;
+  padding: 15%;
+}
+
+#h5TeEsperamos {
+  font-family: "Comforter Brush", sans-serif;
+  font-size: 69px;
+  margin-bottom: 2.5rem;
+  color: #fff;
+}
+
+.whiteColor-FO {
+  color: #fff;
+}
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
