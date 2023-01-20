@@ -87,14 +87,14 @@ const HookForm = () => {
   <input type="text" placeholder="Apellido" {...register("Apellido")} className="text-center input input-bordered input-sm w-full max-w-xs mt-2" required />
   <input type="email" placeholder="e-mail" {...register("email")} required className="text-center input input-bordered input-sm w-full max-w-xs mt-2" />
   <input type="number" placeholder="Celular" {...register("Celular")} required className="text-center input input-bordered input-sm w-full max-w-xs mt-2" />
-  <select   {...register("Edad")}  className="select-sm text-center select-bordered rounded-md m-auto w-full max-w-xs mt-2">
+  <select   {...register("Edad")}  className="select-sm text-center bg-white  rounded-md m-auto w-full max-w-xs mt-2">
   <option disabled selected>Edad</option>
     <option>Adulto/a</option>
     <option>Niño/a</option>
     <option>Menor</option>
   </select>  
     
-  <select  {...register("Menú")}  className="select-sm text-center select-bordered rounded-md m-auto w-full max-w-xs mt-2">
+  <select  {...register("Menú")}  className="select-sm text-center bg-white rounded-md m-auto w-full max-w-xs mt-2">
     <option disabled selected>Tipo de Menú</option>
     <option>Sin Preferencias</option>
     <option>Celíaco</option>
@@ -103,7 +103,7 @@ const HookForm = () => {
     <option>Intolerancia a la Lactosa</option>
   </select>
   
-  <select {...register("Asistencia")} className="select-sm text-center select-bordered rounded-md m-auto w-full max-w-xs mt-2">
+  <select {...register("Asistencia")} className="select-sm text-center bg-white rounded-md m-auto w-full max-w-xs mt-2">
     
     <option disabled selected>Asistencia</option>
     <option>Asistiré</option>
