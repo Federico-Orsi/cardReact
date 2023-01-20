@@ -83,18 +83,18 @@ const HookForm = () => {
   
   
   <form action="https://formsubmit.co/federicoantonio.orsi@gmail.com" onSubmit={handleSubmit(enviar)} method="POST">
-  <input type="text" placeholder="Nombre" {...register("Nombre")} required className="text-center input input-bordered input-sm w-full max-w-xs mt-10" />
-  <input type="text" placeholder="Apellido" {...register("Apellido")} className="text-center input input-bordered input-sm w-full max-w-xs mt-2" required />
-  <input type="email" placeholder="e-mail" {...register("email")} required className="text-center input input-bordered input-sm w-full max-w-xs mt-2" />
-  <input type="number" placeholder="Celular" {...register("Celular")} required className="text-center input input-bordered input-sm w-full max-w-xs mt-2" />
-  <select   {...register("Edad")}  className="select-sm text-center bg-white  rounded-md m-auto w-full max-w-xs mt-2">
+  <input type="text" placeholder="Nombre" {...register("Nombre")} required className="bg-white text-center input input-bordered input-sm w-full max-w-xs mt-10" />
+  <input type="text" placeholder="Apellido" {...register("Apellido")} className="bg-white text-center input input-bordered input-sm w-full max-w-xs mt-2" required />
+  <input type="email" placeholder="e-mail" {...register("email")} required className="bg-white text-center input input-bordered input-sm w-full max-w-xs mt-2" />
+  <input type="number" placeholder="Celular" {...register("Celular")} required className="bg-white text-center input input-bordered input-sm w-full max-w-xs mt-2" />
+  <select   {...register("Edad")}  className="select text-center bg-white  rounded-md m-auto w-full max-w-xs mt-2">
   <option disabled selected>Edad</option>
     <option>Adulto/a</option>
     <option>Niño/a</option>
     <option>Menor</option>
   </select>  
     
-  <select  {...register("Menú")}  className="select-sm text-center bg-white rounded-md m-auto w-full max-w-xs mt-2">
+  <select  {...register("Menú")}  className="select-sm border-none text-center bg-white rounded-md m-auto w-full max-w-xs mt-2">
     <option disabled selected>Tipo de Menú</option>
     <option>Sin Preferencias</option>
     <option>Celíaco</option>
